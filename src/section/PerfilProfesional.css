@@ -21,13 +21,68 @@ h2{
     
 }
 }
-
+.container-encabezado-proyectos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .section-pp{
 
     border-top: 1px solid var(--border-color);
+
+    p{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
     
         &:first-child {
             border-top: none;
+        }
+      
+    }
+
+    .container-estudios{
+
+        h3 {
+                color: var(--primary-blue);
+            }
+            li::marker{
+
+                color: var(--primary-blue);
+            }
+    }
+
+
+  
+
+    .card-proyectos{
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        h3{
+            margin-top: 5px;
+        }
+        
+    
+    }
+
+    .tec{
+        background-color: var(--primary-blue);
+        height: fit-content;
+    }
+
+    .boton-demo{
+        background-color: var(--success-code);
+        padding: 8px;
+        border-radius: 10px;
+        align-self:flex-end;
+        text-decoration: none;
+        color: var(--deep-navy);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        &:hover{
+            color: var(--text-main);
+            transform: scale(1.1);
         }
     }

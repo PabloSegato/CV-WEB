@@ -1,4 +1,5 @@
 import "./PerfilProfesional.css";
+import { proyectos } from "../constants.js";
 
 export const PerfilProfesional = () => {
   return (
@@ -22,11 +23,11 @@ export const PerfilProfesional = () => {
         <div className="container-encabezado-proyectos">
           <h3>
             <strong>Tech Developer — Bootcamp Intensivo</strong>
-          </h3>{" "}
+          </h3>
           <p> 2025 — 2026 </p>
         </div>
 
-        <div className="container-proyectos">
+        <div className="container-estudios">
           <h3> Digital House</h3>
           <ul>
             <li>
@@ -44,6 +45,31 @@ export const PerfilProfesional = () => {
           </ul>
         </div>
       </section>
+
+      <section>
+        <h2>PROYECTOS</h2>
+        {proyectos.map((item) => (
+          <div className="card-proyectos" key={item.title}>
+            <h3>{item.title}</h3>
+            <a href={item.link} target="_blank">
+              {item.title} GitHub
+            </a>
+            <span className="tec">{item.tec}</span>
+
+            <p>{item.description}</p>
+            <a href={item.web} className="boton-demo">
+              Demo en vivo
+            </a>
+          </div>
+        ))}
+      </section>
     </div>
   );
 };
+
+// Quede en la secuencia de cargar las tecnologias por cada uno
+// terminar de dar formato a lo que falta de los proyectos
+// Para finalizar con las competencias
+// posteriormente vamos a realiar el acomodado de github
+//  con los proyectos y tambien actualziarlos para  darle una mejor
+// vista y organizacion de todo

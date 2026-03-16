@@ -1,0 +1,33 @@
+:root {
+    /* --- COLORES PRINCIPALES --- */
+    --primary-blue: #3b82f6;
+    /* Azul eléctrico (Branding/Acción) */
+    --deep-navy: #0f172a;
+    /* --- COLORES DE TEXTO --- */
+    --text-main: #f8fafc;
+    --border-color: #334155;
+    /* Bordes sutiles para un look serio */
+    --success-code: #10b970dc;
+    /* Verde para estados positivos o terminal */
+
+}
+
+.containter-pp{
+padding-top: 20px;
+padding-left: 40px;
+
+h2{
+    color: var(--primary-blue);
+    
+}
+}
+
+
+.section-pp{
+
+    border-top: 1px solid var(--border-color);
+    
+        &:first-child {
+            border-top: none;
+        }
+    }

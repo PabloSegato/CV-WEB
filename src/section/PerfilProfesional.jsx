@@ -1,10 +1,10 @@
-import React from "react";
+import "./PerfilProfesional.css";
 
 export const PerfilProfesional = () => {
   return (
-    <div>
+    <div className="containter-pp">
+      <h2>PERFIL PROFESIONAL </h2>
       <section className="section-pp">
-        <h2>PERFIL PROFESIONAL </h2>
         <p>
           Desarrollador frontend con sólidos conocimientos en React y el
           ecosistema JavaScript moderno, incluyendo TypeScript, Redux, Zustand y
@@ -16,8 +16,9 @@ export const PerfilProfesional = () => {
           en cualquier parte del mundo.
         </p>
       </section>
+      <h2>FORMACION PRACTICA</h2>
+
       <section className="section-pp">
-        <h2>FORMACION PRACTICA</h2>
         <div className="container-encabezado-proyectos">
           <h3>
             <strong>Tech Developer — Bootcamp Intensivo</strong>
@@ -25,7 +26,7 @@ export const PerfilProfesional = () => {
           <p> 2025 — 2026 </p>
         </div>
 
-        <div className="continer-proyectos">
+        <div className="container-proyectos">
           <h3> Digital House</h3>
           <ul>
             <li>

@@ -10,10 +10,18 @@ export const Header = () => {
         <li>Valencia, España</li>
         <li>Disponible remoto/presencial</li>
       </ul>
-      <section className="perfil-profesional"></section>
-      <section className="formacion-practica"></section>
-      <section className="proyectos"></section>
-      <section className="competencias"></section>
+      <div className="container-links">
+        <a>pablo.segato47@gmail.com</a>
+        <a
+          href="https://www.linkedin.com/in/segato-pablo-nicolas/"
+          target="_blank"
+        >
+          Segato Pablo Nícolas
+        </a>
+        <a href="https://github.com/PabloSegato?tab=repositories">
+          PabloSegato
+        </a>
+      </div>
     </header>
   );
 };

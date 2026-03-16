@@ -14,8 +14,8 @@
 
 .aside-container{
 
-  max-width: fit-content;
-  height: 100vh;
+  max-width: 420px;
+  height: auto;
   background-color: var(--deep-navy);
   color: var(--text-main);
   display: flex;
@@ -33,14 +33,14 @@
   .aside-container h2{
     color: var(--primary-blue);
     border-bottom: 3px solid var(--border-color);
-text-align: center;   
-padding: 10px;
+    text-align: center;   
+    padding: 10px;
   }
 
-  .aside-container p {
-word-break: break-all;  }
 
-.aside-container ul{display: flex;
+
+.aside-container ul{
+  display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
 
@@ -51,7 +51,7 @@ word-break: break-all;  }
 list-style: none;
 background-color: var(--success-code);
 border-radius: 12px;
-margin: 4px;
+margin: 5px;
 padding: 7px;
 color:var(--deep-navy);
 
@@ -75,4 +75,21 @@ margin: 10px 0 10px 0;
 
   color: var(--primary-blue);
   transform: scale(1.1);
+}
+
+
+.sobre-mi p{
+
+  padding: 10px;
+}
+
+.estudios{
+  padding-top: 5px;
+  h3 {
+    margin: 5px;
+  }
+
+  p{
+    margin-top: 5px;
+  }
 }

@@ -67,8 +67,8 @@ export const Perfil = () => {
         </ul>
       </div>
 
+      <h2>FORMACIÓN</h2>
       <div className="estudios">
-        <h2>FORMACIÓN</h2>
         <h3>
           <strong>Digital House</strong>
         </h3>

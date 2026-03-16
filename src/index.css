@@ -1,5 +1,19 @@
+:root {
+    /* --- COLORES PRINCIPALES --- */
+    --primary-blue: #3b82f6;
+    /* Azul eléctrico (Branding/Acción) */
+    --deep-navy: #0f172a;
+    /* --- COLORES DE TEXTO --- */
+    --text-main: #f8fafc;
+    --border-color: #334155;
+    /* Bordes sutiles para un look serio */
+    --success-code: #10b970dc;
+    /* Verde para estados positivos o terminal */
 
+}
 * {
 margin: 0;
 padding: 0;
-box-sizing: border-box;}
+box-sizing: border-box;
+}
+ 

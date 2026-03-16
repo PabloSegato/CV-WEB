@@ -1,0 +1,78 @@
+:root {
+  /* --- COLORES PRINCIPALES --- */
+  --primary-blue: #3b82f6;
+  /* Azul eléctrico (Branding/Acción) */
+  --deep-navy: #0f172a;
+  /* --- COLORES DE TEXTO --- */
+  --text-main: #f8fafc;
+  --border-color: #334155;
+  /* Bordes sutiles para un look serio */
+  --success-code: #10b970dc;
+  /* Verde para estados positivos o terminal */
+
+}
+
+.aside-container{
+
+  max-width: fit-content;
+  height: 100vh;
+  background-color: var(--deep-navy);
+  color: var(--text-main);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.aside-container img{
+    max-width: 250px;
+    border-radius: 80%;
+    align-self: center;
+    
+  }
+
+  .aside-container h2{
+    color: var(--primary-blue);
+    border-bottom: 3px solid var(--border-color);
+text-align: center;   
+padding: 10px;
+  }
+
+  .aside-container p {
+word-break: break-all;  }
+
+.aside-container ul{display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+
+  
+}
+.aside-container ul li {
+
+list-style: none;
+background-color: var(--success-code);
+border-radius: 12px;
+margin: 4px;
+padding: 7px;
+color:var(--deep-navy);
+
+}
+
+
+.contacto p{
+
+font-size: 1.1rem; 
+margin: 10px 0 10px 0;
+}
+
+.contacto a{
+  display: block;
+  text-decoration: none;
+  color: var(--text-main);
+
+}
+
+.contacto a:hover{
+
+  color: var(--primary-blue);
+  transform: scale(1.1);
+}

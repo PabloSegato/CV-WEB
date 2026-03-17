@@ -46,8 +46,9 @@ export const PerfilProfesional = () => {
         </div>
       </section>
 
+      <h2>PROYECTOS</h2>
+
       <section>
-        <h2>PROYECTOS</h2>
         {proyectos.map((item) => (
           <div className="card-proyectos" key={item.title}>
             <h3>{item.title}</h3>
@@ -68,8 +69,8 @@ export const PerfilProfesional = () => {
 };
 
 // Quede en la secuencia de cargar las tecnologias por cada uno
-// terminar de dar formato a lo que falta de los proyectos
-// Para finalizar con las competencias
-// posteriormente vamos a realiar el acomodado de github
+
+//  realiar el acomodado de github
 //  con los proyectos y tambien actualziarlos para  darle una mejor
 // vista y organizacion de todo
+// gestionar el boton de ver demo, hay que subir los proyectos a vercel y agregarlos

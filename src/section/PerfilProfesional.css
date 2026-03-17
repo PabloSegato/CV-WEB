@@ -86,10 +86,20 @@ h2{
     
     }
 
+   .container-tec{
+    display: flex;
+    gap: 30px;
+
     .tec{
         background-color: var(--primary-blue);
-        height: fit-content;
+        padding: 12px;
+        border-radius: 12px;
+        margin: 10px;
+        color: var(--text-main);
+        opacity: .9;
+        cursor:auto;
     }
+   }
 
     .boton-demo{
         background-color: var(--success-code);

@@ -55,7 +55,13 @@ export const PerfilProfesional = () => {
             <a href={item.link} target="_blank">
               {item.title} GitHub
             </a>
-            <span className="tec">{item.tec}</span>
+            <div className="container-tec">
+              {item.tec.map((tec, index) => (
+                <span className="tec" key={index}>
+                  {tec}
+                </span>
+              ))}
+            </div>
 
             <p>{item.description}</p>
             <a href={item.web} className="boton-demo">
@@ -67,10 +73,3 @@ export const PerfilProfesional = () => {
     </div>
   );
 };
-
-// Quede en la secuencia de cargar las tecnologias por cada uno
-
-//  realiar el acomodado de github
-//  con los proyectos y tambien actualziarlos para  darle una mejor
-// vista y organizacion de todo
-// gestionar el boton de ver demo, hay que subir los proyectos a vercel y agregarlos

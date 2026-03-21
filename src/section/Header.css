@@ -1,63 +1,61 @@
 :root {
-    /* --- COLORES PRINCIPALES --- */
-    --primary-blue: #3b82f6;
-    /* Azul eléctrico (Branding/Acción) */
-    --deep-navy: #0f172a;
-    /* --- COLORES DE TEXTO --- */
-    --text-main: #f8fafc;
-    --border-color: #334155;
-    /* Bordes sutiles para un look serio */
-    --success-code: #10b970dc;
-    /* Verde para estados positivos o terminal */
-
+  /* --- COLORES PRINCIPALES --- */
+  --primary-blue: #3b82f6;
+  /* Azul eléctrico (Branding/Acción) */
+  --deep-navy: #0f172a;
+  /* --- COLORES DE TEXTO --- */
+  --text-main: #f8fafc;
+  --border-color: #334155;
+  /* Bordes sutiles para un look serio */
+  --success-code: #10b970dc;
+  /* Verde para estados positivos o terminal */
 }
-
-.header-cv{
-
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    background-color: #F8F9FA;
-    padding: 40px;
-    color: var(--border-color);
-    gap: 10px;
-    border-bottom: 1px solid var(--border-color);
-
-}
-
 
 .header-cv {
-    
-    
-    ul{
-        display: inherit;
-        gap: 30px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+  padding: 40px;
+  color: var(--border-color);
+  gap: 10px;
+  border-bottom: 1px solid var(--border-color);
+}
 
-        :first-child{
-        list-style: none;
-        }
+.header-cv {
+  ul {
+    display: inherit;
+    gap: 30px;
 
-
+    :first-child {
+      list-style: none;
     }
+  }
 
-   
-
-    h2 {
-            color: var(--primary-blue);
-        }
-  
+  h2 {
+    color: var(--primary-blue);
+  }
 }
 
 .container-links {
-    
-    a {
-            margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
 
-            text-decoration: none;
+  svg {
+    margin-right: 5px;
+  }
+
+  a {
+    margin-right: 10px;
+
+    text-decoration: none;
     color: var(--border-color);
-    &:hover{
-        transform: scale(1.1);
-        color: var(--primary-blue);
+    &:hover {
+      transform: scale(1.1);
+      color: var(--primary-blue);
     }
-}
+  }
 }

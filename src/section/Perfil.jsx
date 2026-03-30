@@ -2,7 +2,7 @@ import "./Perfil.css";
 import foto from "../public/assets/perfil.png";
 export const Perfil = () => {
   return (
-    <aside className="aside-container">
+    <section className="aside-container">
       <img src={foto} alt="Foto perfil" />
 
       <div className="contacto">
@@ -216,6 +216,6 @@ export const Perfil = () => {
           resultados y con rápida capacidad de adaptación.
         </p>
       </div>
-    </aside>
+    </section>
   );
 };

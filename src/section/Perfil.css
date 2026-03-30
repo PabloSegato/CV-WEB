@@ -13,7 +13,7 @@
 
 .aside-container {
   max-width: 420px;
-  height: fit-content;
+  height: auto;
   background-color: var(--deep-navy);
   color: var(--text-main);
   display: flex;

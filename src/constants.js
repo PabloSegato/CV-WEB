@@ -1,10 +1,17 @@
 export const proyectos = [
   {
+    title: "Los Simpson APP",
+    link: "https://github.com/PabloSegato/los-simpson-v2",
+    description: `Aplicación web interactiva desarrollada con React 19 y Vite que permite explorar y gestionar una base de datos completa de más de 600 personajes de la serie televisiva "Los Simpson". La aplicación integra consumo de API REST externa, implementa un sistema avanzado de filtrado y búsqueda, y demuestra dominio en la arquitectura de componentes modernos de React.`,
+    web: "https://los-simpson-v2.vercel.app/",
+    tec: ["React ", "CSS "],
+  },
+  {
     title: "La Casa de Olga",
-    link: "https://github.com/PabloSegato/La_casa_de_Olga",
+    link: "https://github.com/PabloSegato/la-casa-de-olga-web",
     description: `Desarrollo integral de una plataforma web destinada al alquiler de hospedajes por temporada, empleando Claude AI como motor de asistencia técnica. A través de una ingeniería de prompts descriptivos, se logró una gestión visual avanzada y una optimización del código fuente, garantizando una arquitectura de archivos eficiente y escalable. 
       Con el objetivo de maximizar la tasa de conversión y simplificar la infraestructura, se implementó un sistema de reserva directa vía WhatsApp. Esta solución técnica elimina la dependencia de servidores externos de correo y bases de datos para formularios, ofreciendo una comunicación inmediata y fluida con el usuario.`,
-    web: "https://github.com/PabloSegato/La_casa_de_Olga",
+    web: "https://lacasadeolga.vercel.app/",
     tec: ["React ", "Claude Code", "CSS "],
   },
   {
